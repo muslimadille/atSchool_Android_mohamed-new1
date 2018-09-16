@@ -33,6 +33,7 @@ import com.atschoolPioneerSchool.ActivityKidBus;
 import com.atschoolPioneerSchool.ActivityLogin;
 import com.atschoolPioneerSchool.ActivityMain;
 import com.atschoolPioneerSchool.ActivityNotification;
+import com.atschoolPioneerSchool.Ma3refa;
 import com.atschoolPioneerSchool.R;
 import com.atschoolPioneerSchool.activity_school_statements;
 import com.atschoolPioneerSchool.activity_school_vouchers;
@@ -141,11 +142,11 @@ public class CategoryFragment extends Fragment {
 
                     startActivity(i);
                 } else if (obj.getName().equals("معرفه") || obj.getName().equals("M3refah")) {
-
-                    Intent i = new Intent(getActivity(), ActivityMain.class);
-                    Bundle mBundle = new Bundle();
-                    mBundle.putString("SelectedMenu", String.valueOf(R.id.nav_marefah));
-                    i.putExtras(mBundle);
+                    Intent i=new Intent(getActivity(), Ma3refa.class);
+                   // Intent i = new Intent(getActivity(), ActivityMain.class);
+//                    Bundle mBundle = new Bundle();
+//                    mBundle.putString("SelectedMenu", String.valueOf(R.id.nav_marefah));
+//                    i.putExtras(mBundle);
 
                     startActivity(i);
                 } else if (obj.getName().equals("الباصات") || obj.getName().equals("Buses")) {

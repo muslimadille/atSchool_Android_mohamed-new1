@@ -212,7 +212,7 @@
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyBFqTz4c-AxDlQH9O4ebowns4F_H3nhidk" />
 
-        <activity android:name=".ma3refa_new" />
+        <activity android:name=".Ma3refa"></activity>
     </application>
 
 </manifest>
