@@ -165,4 +165,5 @@
         <item>عربي</item>
         <item>french</item>
     </string-array>
+    <string name="subjects">sujets</string>
 </resources>
